@@ -1,0 +1,35 @@
+# ---- DevEco Studio / HarmonyOS ----
+.idea/
+idea/
+.hvigor/
+.appanalyzer/
+oh_modules/
+node_modules/
+build/
+**/build/
+local.properties
+.cxx/
+.clangd
+.clang-format
+.clang-tidy
+
+# ---- 构建产物 ----
+*.hap
+*.hsp
+*.har
+*.app
+
+# ---- 签名与本地配置 ----
+*.p12
+*.cer
+*.p7b
+*.keystore
+*.jks
+
+# ---- 系统与编辑器 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.vscode/
+*.log
